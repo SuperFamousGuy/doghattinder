@@ -1,0 +1,83 @@
+html, body {
+    margin : 0; 
+    padding : 0; 
+    height : 100%;
+    width : 100%; 
+}
+
+div.hat {
+    position : absolute;
+    top : 0%;
+    left : 38%;
+    width : 50%;
+    height : 30%;
+    z-index : 1;
+}
+
+div.dog {
+    position : absolute;
+    top : 5%;
+    left : 30%;
+    width : 40%;
+    height : 90%
+    z-index : 0;
+}
+
+.image {
+    position : relative;
+    max-width : 100%;
+    max-height : 100%;
+}
+
+div.dislike {
+    position : absolute;
+    top : 40%;
+    left : 2%;
+    height : 15%;
+    width : 10%;
+    border-radius: 10px;
+    border: 3px solid #ED4337;
+    background-color : ED4337;
+}
+
+div.dislike:hover {
+    top:39%;
+    height:16%;
+    width:11%;
+    cursor:pointer;
+}
+
+div.like {
+    position : absolute;
+    top : 40%;
+    right : 2%;
+    height : 15%;
+    width : 10%;
+    border-radius: 10px;
+    border: 3px solid #BADA55;
+    background-color : BADA55;
+}
+
+div.like:hover {
+    top:39%;
+    height:16%;
+    width:11%;
+    cursor:pointer;
+}
+
+div.info {
+    position : absolute;
+    bottom : 0;
+    height : 15%;
+    width : 100%;
+    background-image: url('img/info-background.png');
+    background-repeat: repeat;
+}
+
+table {
+    position : relative;
+    width : 100%;
+    font-weight: bold;
+    font-size:25px;
+}
+
